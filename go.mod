@@ -1,8 +1,7 @@
 module github.com/cli/cli/v2
 
 go 1.22
-
-toolchain go1.22.2
+toolchain go1.22.5
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
@@ -37,7 +36,7 @@ require (
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/rivo/tview v0.0.0-20221029100920-c4a7e501810d
 	github.com/shurcooL/githubv4 v0.0.0-20240120211514-18a1ae0e79dc
-	github.com/sigstore/protobuf-specs v0.3.2
+	github.com/sigstore/protobuf-specs v0.3.3
 	github.com/sigstore/sigstore-go v0.3.0
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
@@ -48,7 +47,7 @@ require (
 	golang.org/x/term v0.20.0
 	golang.org/x/text v0.15.0
 	google.golang.org/grpc v1.62.2
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.36.2
 	gopkg.in/h2non/gock.v1 v1.1.2
 	gopkg.in/yaml.v3 v3.0.1
 )
